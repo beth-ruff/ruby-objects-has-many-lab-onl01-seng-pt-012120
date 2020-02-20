@@ -8,7 +8,7 @@ class Author
   end
 
   def posts
-    @posts
+    posts.all.select {|posts|
   end
   
   def self.post_count
